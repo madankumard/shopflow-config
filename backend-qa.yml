@@ -1,0 +1,3 @@
+app:
+  environment: qa
+  banner: "QA: test data only. It may be reset at any time."

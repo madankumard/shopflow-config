@@ -1,0 +1,4 @@
+# Shared by the backend in every environment. An environment file overrides these.
+app:
+  # Shown as a strip under the page header; empty means no strip.
+  banner: ""
