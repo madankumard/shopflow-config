@@ -1,3 +1,11 @@
 app:
   environment: preprod
   banner: "Pre-production: rehearsal for the next release."
+
+# Login tokens must come from this environment's Keycloak, at the address users see.
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:8083/auth/realms/shopflow
