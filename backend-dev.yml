@@ -1,6 +1,9 @@
 app:
   environment: dev
   banner: "Development: expect unfinished features. Settings now come from the config repo."
+  reports:
+    # Higher than elsewhere, so the low-stock list has something in it while developing.
+    low-stock-threshold: 50
 
 # Login tokens must come from this environment's Keycloak, at the address users see.
 spring:

@@ -2,3 +2,6 @@
 app:
   # Shown as a strip under the page header; empty means no strip.
   banner: ""
+  reports:
+    # A product with this many or fewer in stock is listed as low on the reports page.
+    low-stock-threshold: 10
